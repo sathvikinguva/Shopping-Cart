@@ -3,7 +3,6 @@
 #include<unordered_map>
 using namespace std;
 
-//Forward Declaration
 class Item;
 class Cart;
 
@@ -36,7 +35,6 @@ class Item{
 	int quantity;
 
 public:
-	//Constructor using a Init List
 	Item(){}
 	Item(Product p, int q):product(p), quantity(q){}
 
@@ -92,7 +90,6 @@ public:
 
 		return itemizedList + "\n Total Amount : Rs. " + to_string(cart_total) + '\n';
 	}
-	//later on
 	bool isEmpty(){
 		return items.empty();
 	}
