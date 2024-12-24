@@ -4,12 +4,12 @@
 using namespace std;
 
 vector<Product> allProducts = {
-	Product(1,"iphone 16",70000),
-	Product(2,"portronics keyboard&mouse",4000),
-	Product(3,"jbl tune beam buds",5000),
-	Product(5,"lenovo ideapad",60000),
-	Product(4,"seagate hard-disk",2000),
-	Product(6,"firebolt watch",3000),
+    Product(1,"iphone 16",70000),
+    Product(2,"portronics keyboard&mouse",4000),
+    Product(3,"jbl tune beam buds",5000),
+    Product(5,"lenovo ideapad",60000),
+    Product(4,"seagate hard-disk",2000),
+    Product(6,"firebolt watch",3000),
     Product(7,"apple",12),
     Product(8,"dragonfruit",100),
     Product(9,"potato(1kg)",39),
